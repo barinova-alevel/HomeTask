@@ -9,7 +9,7 @@ namespace Cheater
     //Basket weight that players are guessing
     class GuessWeight
     {
-        
+        //comment
         public int Weight(int minRange, int maxRange)
         {
             return Helper.GetValueInRange(minRange, maxRange, "Enter weight within the range from " +minRange+ " to " +maxRange);
